@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+
+/* cascade */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font: 500 100%/1 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+}
+
+/* experiments */
+
+body {
+  display: grid;
+  gap: 1px 0;
+  grid-template-columns: 1fr 2fr 1fr;
+  min-height: 100vh;
+  padding: 5rem 0;
+}
+
+h1,
+h2 {
+  letter-spacing: -0.03em;
+  margin: 0;
+}
+h1 {
+  font-size: 4rem;
+  margin: 0 0 4rem;
+}
+h2 {
+  font-size: 2rem;
+}
+
+#experiments,
+.experiment,
+footer {
+  display: contents;
+}
+.experiment > * {
+  padding: 1rem 0;
+}
+.experiment:hover > * {
+  background: black;
+  color: white;
+}
+
+a {
+  align-items: center;
+  background: black;
+  border-radius: 1.5rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  text-decoration: none;
+}
+a:hover {
+  background: white;
+  color: black;
+}
+
+:first-child {
+  padding-left: 2rem;
+}
+:last-child {
+  padding-right: 2rem;
+}
+
+footer > * {
+  align-self: baseline;
+}

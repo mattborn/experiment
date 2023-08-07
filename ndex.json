@@ -1,0 +1,35 @@
+[
+  {
+    "week": "2037",
+    "name": "Billboard"
+  },
+  {
+    "week": "2039",
+    "name": "Portable Markdown"
+  },
+  {
+    "week": "2040",
+    "name": "Cabinet Cards"
+  },
+  {
+    "week": "2041",
+    "name": "Copy Pasta"
+  },
+  {
+    "week": "2042",
+    "name": "Ideas"
+  },
+  {
+    "week": "2044",
+    "name": "Vanilla Router"
+  },
+  {
+    "week": "2045",
+    "name": "Vanilla SPA",
+    "hide": true
+  },
+  {
+    "week": "2331",
+    "name": "Week Year"
+  }
+]
