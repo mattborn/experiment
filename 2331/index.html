@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Experiment # 2331</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="weekyear.css" />
+    <script defer src="https://kit.fontawesome.com/484ee0d259.js" crossorigin="anonymous"></script>
+    <script defer src="https://unpkg.com/dayjs/dayjs.min.js"></script>
+    <script defer src="https://unpkg.com/dayjs/plugin/isoWeek.js"></script>
+    <script defer src="https://unpkg.com/dayjs/plugin/quarterOfYear.js"></script>
+    <script defer src="https://unpkg.com/dayjs/plugin/isLeapYear.js"></script>
+    <script defer src="https://unpkg.com/marked/marked.min.js"></script>
+    <script defer src="weekyear.js"></script>
+  </head>
+  <body>
+    <div id="readme"></div>
+    <h2>Today</h2>
+    <div id="metrics">
+      <div class="metric">
+        <div class="metric-icon"><i class="fa-regular fa-crop"></i></div>
+        <div class="metric-name">Shorthand</div>
+        <div class="metric-value" id="short"></div>
+      </div>
+      <div class="metric">
+        <div class="metric-icon"><i class="fa-regular fa-expand"></i></div>
+        <div class="metric-name">ISO extended form</div>
+        <div class="metric-value" id="iso-e"></div>
+      </div>
+      <div class="metric">
+        <div class="metric-icon"><i class="fa-regular fa-compress"></i></div>
+        <div class="metric-name">ISO compact form</div>
+        <div class="metric-value" id="iso-c"></div>
+      </div>
+      <div class="metric">
+        <div class="metric-icon"><i class="fa-regular fa-circle-three-quarters"></i></div>
+        <div class="metric-name">Current quarter</div>
+        <div class="metric-value" id="quarter"></div>
+      </div>
+      <div class="metric">
+        <div class="metric-icon"><i class="fa-regular fa-battery-half"></i></div>
+        <div class="metric-name">Weeks remaining this quarter</div>
+        <div class="metric-value" id="rem-q"></div>
+      </div>
+      <div class="metric">
+        <div class="metric-icon"><i class="fa-regular fa-calendar-day"></i></div>
+        <div class="metric-name">Weeks remaining in 2023</div>
+        <div class="metric-value" id="rem-y"></div>
+      </div>
+    </div>
+    <h2>Week Calendar</h2>
+    <div id="weeks"></div>
+    <footer>
+      <h2>WkYr™</h2>
+      <p>another Matt Born concept</p>
+      <p>© 2023</p>
+    </footer>
+  </body>
+</html>
