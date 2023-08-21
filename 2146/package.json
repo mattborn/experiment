@@ -1,0 +1,17 @@
+{
+  "name": "2146",
+  "version": "1.0.0",
+  "description": "## Usage",
+  "main": "csv.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "papaparse": "^5.4.1"
+  },
+  "type": "module"
+}
